@@ -14,13 +14,12 @@
 }
 
 .content {
-    display: flex;
-
+  display: flex;
 }
 
 .sidebar {
   background-color: var(--color-grey-dark-1);
-//   flex-direction: column;
+  //   flex-direction: column;
 
   flex: 0 0 18%;
 }
