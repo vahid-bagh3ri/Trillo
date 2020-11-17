@@ -30,31 +30,35 @@
           </button>
         </form>
 
-        <nav class="user-nav"></nav>
+        <nav class="user-nav">
+          
+            <div class="user-nav__icon-box">
+              <svg class="user-nav__icon">
+                <use xlink:href="img/sprite.svg#icon-bookmark"></use>
+              </svg>
+              <span class="user-nav__notification">7</span>
+            </div>
+  
+            <div class="user-nav__icon-box">
+              <svg class="user-nav__icon">
+                <use xlink:href="img/sprite.svg#icon-chat"></use>
+              </svg>
+              <span class="user-nav__notification">7</span>
+            </div>
+            <div class="user-nav__user">
+              <img
+                src="img/user.jpg"
+                alt="user photo"
+                class="user-nav__user-photo"
+              />
+              <span class="user-nav__user-photo">Jonas</span>
+            </div>
+        </nav>
       </header>
       <div class="content">
         <nav class="sidebar">
-          <div class="user-nav__icon-box">
-            <svg class="user-nav__icon">
-              <use xlink:href="img/sprite.svg#icon-bookmark"></use>
-            </svg>
-            <span class="user-nav__notification">7</span>
-          </div>
 
-          <div class="user-nav__icon-box">
-            <svg class="user-nav__icon">
-              <use xlink:href="img/sprite.svg#icon-chat"></use>
-            </svg>
-            <span class="user-nav__notification">7</span>
-          </div>
-          <div class="user-nav__user">
-            <img
-              src="img/user.jpg"
-              alt="user photo"
-              class="user-nav__user-photo"
-            />
-            <span class="user-nav__user-photo">Jonas</span>
-          </div>
+          Navigation
         </nav>
 
         <main class="hotel-view">hotel view</main>
