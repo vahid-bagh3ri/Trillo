@@ -374,7 +374,7 @@
     border: 3px solid #fff;
 
     &:not(:last-child) {
-      margin-right: -1.15rem;
+      margin-right: -2.25rem;
     }
   }
 }
@@ -475,12 +475,11 @@
   overflow: hidden;
   cursor: pointer;
 
-  & > *{
+  & > * {
     display: inline-block;
     height: 100%;
     width: 100%;
     transition: all 0.2s;
-
   }
 
   &__visible {
@@ -494,7 +493,7 @@
     top: -100%;
   }
 
-  &:hover{
+  &:hover {
     background-image: linear-gradient(
       to left,
       var(--color-primary-light),
@@ -509,7 +508,7 @@
     top: 0;
   }
 
-  &:focus{
+  &:focus {
     outline: none;
     animation: pulsate 1s infinite;
   }
